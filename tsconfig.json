@@ -1,6 +1,9 @@
 {
         "compilerOptions": {
-                "rootDir": "./src",
+                "rootDirs": [
+                        "./src",
+                        "./data"
+                ],
                 "outDir": "build",
                 "incremental": true,
                 "target": "es6",
@@ -14,15 +17,13 @@
                 "strictPropertyInitialization": true,
                 "noImplicitThis": true,
                 "alwaysStrict": true,
-                // "noUnusedLocals": true,
-                // "noUnusedParameters": true,
-                // "noImplicitReturns": true,
-                // "noFallthroughCasesInSwitch": true,
                 "esModuleInterop": true,
                 "skipLibCheck": true,
                 "forceConsistentCasingInFileNames": true,
+                "resolveJsonModule": true
         },
         "include": [
-                "src"
+                "src",
+                "data"
         ]
 }

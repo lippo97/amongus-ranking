@@ -9,7 +9,7 @@ import { Option } from 'fp-ts/lib/Option';
 
 export type Name = string;
 
-type Player = {
+export type Player = {
     name: Name,
     impostorGames: number,
     impostorWins: number,
