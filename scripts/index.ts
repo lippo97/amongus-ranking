@@ -44,7 +44,7 @@ const applyReport = ({ crewmates, impostors, winners }: Report) => (ranking: Ran
         impostors.forEach(name => {
             const player = ranking.getOrCreate(name);
             player.impostorGames += 1;
-            player.impostorWins += win.crewmates;
+            player.impostorWins += win.impostors;
         })
         return e.right(ranking);
     } catch(err) {

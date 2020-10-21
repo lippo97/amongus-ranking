@@ -53,13 +53,13 @@
         "crewmateGames": 0,
         "crewmateWins": 0,
         "impostorGames": 1,
-        "impostorWins": 0
+        "impostorWins": 1
     },
     "Pablovic": {
         "name": "Pablovic",
         "crewmateGames": 0,
         "crewmateWins": 0,
         "impostorGames": 1,
-        "impostorWins": 0
+        "impostorWins": 1
     }
 }
