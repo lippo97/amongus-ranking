@@ -74,7 +74,7 @@ export default function Ranking({ ranking }: RankingProps) {
 
     const [ sortOrder, setSortOrder ] = useState<SortCombined>({
         _type: 'total',
-        order: 'increasing',
+        order: 'nonIncreasing',
     });
 
     const setSortType = (newType: SortType) => {

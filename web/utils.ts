@@ -32,7 +32,7 @@ export function crewmatePercentage([a, b]: [EnhancedPlayer, EnhancedPlayer]): [n
 }
 
 export function increasing([a, b]: [number, number]): number {
-    return b - a;
+    return a - b;
 }
 
 export function nonIncreasing(args: [number, number]): number {
