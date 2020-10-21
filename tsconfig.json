@@ -1,9 +1,11 @@
 {
         "compilerOptions": {
                 "rootDirs": [
-                        "./src",
+                        "./scripts/",
+                        "./web/",
                         "./data"
                 ],
+                "baseUrl": ".",
                 "outDir": "build",
                 "incremental": true,
                 "target": "es6",
@@ -23,7 +25,8 @@
                 "resolveJsonModule": true
         },
         "include": [
-                "src",
-                "data"
+                "web",
+                "scripts",
+                // "data"
         ]
 }

@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import data from '../../data/ranking.json'
+import data from '../data/ranking.json'
 import Ranking from './ranking';
 import Header from './header';
+
 
 console.log(data);
 
