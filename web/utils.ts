@@ -1,7 +1,7 @@
 import { EnhancedPlayer } from "./types";
 
-export function formatRecord(num: number, den: number): string {
-    return `${num} - ${num + den}`;
+export function formatRecord(win: number, total: number): string {
+    return `${win} - ${total - win}`;
 }
 
 export function getPercentage(num: number, den: number): number {
