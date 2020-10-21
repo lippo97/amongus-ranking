@@ -1,0 +1,37 @@
+{
+    "Lippo": {
+        "name": "Lippo",
+        "crewmateWins": 0,
+        "crewmateGames": 0,
+        "impostorWins": 2,
+        "impostorGames": 3
+    },
+    "Ugo": {
+        "name": "Ugo",
+        "crewmateWins": 2,
+        "crewmateGames": 4,
+        "impostorWins": 1,
+        "impostorGames": 2
+    },
+    "Giumi": {
+        "name": "Giumi",
+        "crewmateWins": 0,
+        "crewmateGames": 0,
+        "impostorWins": 2,
+        "impostorGames": 3
+    },
+    "Ello": {
+        "name": "Ello",
+        "crewmateGames": 5,
+        "crewmateWins": 4,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Sambu": {
+        "name": "Sambu",
+        "crewmateGames": 3,
+        "crewmateWins": 2,
+        "impostorGames": 0,
+        "impostorWins": 0
+    }
+}
