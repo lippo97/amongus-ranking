@@ -2,6 +2,10 @@ html, body {
     box-sizing: border-box;
 }
 
+#title {
+    margin-bottom: 30px;
+}
+
 .selector {
     cursor: pointer;
 }
