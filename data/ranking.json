@@ -4,7 +4,7 @@
         "crewmateWins": 1,
         "crewmateGames": 6,
         "impostorWins": 2,
-        "impostorGames": 6
+        "impostorGames": 7
     },
     "Ugo": {
         "name": "Ugo",
@@ -116,6 +116,55 @@
         "crewmateGames": 1,
         "crewmateWins": 1,
         "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Will": {
+        "name": "Will",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "ALI": {
+        "name": "ALI",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Purple sus": {
+        "name": "Purple sus",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Angel": {
+        "name": "Angel",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Alex": {
+        "name": "Alex",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Amn": {
+        "name": "Amn",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Nlger": {
+        "name": "Nlger",
+        "crewmateGames": 0,
+        "crewmateWins": 0,
+        "impostorGames": 1,
         "impostorWins": 0
     }
 }
