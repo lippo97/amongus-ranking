@@ -63,27 +63,29 @@ const sendReport = (report: Report): IOEither<Error, void> => {
     )
 }
 
-(async () => {
-    await listen(server, MQTT_PORT);
-    console.log(`Server listening on ${MQTT_PORT}.`);
+// (async () => {
+//    await listen(server, MQTT_PORT);
+//    console.log(`Server listening on ${MQTT_PORT}.`);
+//
+// })();
 
-    const client = mqtt.connect(MQTT_URI);
 
-    client.on('connect', async function() {
-        await client.subscribe('endGameReport');
-    });
+const client = mqtt.connect(MQTT_URI);
 
-    client.on('message', function(topic: string, message: any) {
-        if (topic == endGameReport) {
-            pipe(
-                message.toString(),
-                s => ioe.tryCatch(() => JSON.parse(s), e.toError),
-                ioe.chain(sendReport),
-                a => a(),
-                e.fold<Error, void, void>(logError, () => console.log('Saved successfully'))
-            )
-        }
-    })
+client.on('connect', function() {
+	client.subscribe('endGameReport');
+});
 
-    console.log('Started!');
-})();
+client.on('message', function(topic: string, message: any) {
+	if (topic == endGameReport) {
+		pipe(
+			message.toString(),
+			s => ioe.tryCatch(() => JSON.parse(s), e.toError),
+			ioe.chain(sendReport),
+			a => a(),
+			e.fold<Error, void, void>(logError, () => console.log('Saved successfully'))
+		)
+	}
+})
+
+console.log('Started!');
