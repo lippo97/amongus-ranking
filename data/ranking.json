@@ -27,25 +27,11 @@
         "impostorGames": 2,
         "impostorWins": 1
     },
-    "BERGOMI": {
-        "name": "BERGOMI",
-        "crewmateGames": 8,
-        "crewmateWins": 4,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
     "Filloh": {
         "name": "Filloh",
         "crewmateGames": 7,
         "crewmateWins": 4,
         "impostorGames": 1,
-        "impostorWins": 1
-    },
-    "MattarEllo": {
-        "name": "MattarEllo",
-        "crewmateGames": 6,
-        "crewmateWins": 3,
-        "impostorGames": 2,
         "impostorWins": 1
     },
     "Ferra": {
@@ -62,47 +48,12 @@
         "impostorGames": 1,
         "impostorWins": 1
     },
-    "polve": {
+    "Polve": {
         "name": "polve",
-        "crewmateGames": 6,
-        "crewmateWins": 3,
+        "crewmateGames": 9,
+        "crewmateWins": 6,
         "impostorGames": 4,
         "impostorWins": 2
-    },
-    "Polve": {
-        "name": "Polve",
-        "crewmateGames": 3,
-        "crewmateWins": 3,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "AKPA AKPRO": {
-        "name": "AKPA AKPRO",
-        "crewmateGames": 1,
-        "crewmateWins": 1,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "igor": {
-        "name": "igor",
-        "crewmateGames": 1,
-        "crewmateWins": 1,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "Rosso": {
-        "name": "Rosso",
-        "crewmateGames": 1,
-        "crewmateWins": 1,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "TuaMamma": {
-        "name": "TuaMamma",
-        "crewmateGames": 0,
-        "crewmateWins": 0,
-        "impostorGames": 1,
-        "impostorWins": 0
     },
     "Nico": {
         "name": "Nico",
@@ -113,10 +64,10 @@
     },
     "CarrEllo": {
         "name": "CarrEllo",
-        "crewmateGames": 3,
-        "crewmateWins": 1,
-        "impostorGames": 2,
-        "impostorWins": 0
+        "crewmateGames": 9,
+        "crewmateWins": 4,
+        "impostorGames": 5,
+        "impostorWins": 1
     },
     "Ste": {
         "name": "Ste",
@@ -127,29 +78,29 @@
     },
     "ilrodi": {
         "name": "ilrodi",
-        "crewmateGames": 5,
-        "crewmateWins": 3,
+        "crewmateGames": 13,
+        "crewmateWins": 7,
         "impostorGames": 0,
         "impostorWins": 0
     },
     "Hammamta ": {
         "name": "Hammamta ",
-        "crewmateGames": 5,
-        "crewmateWins": 3,
+        "crewmateGames": 6,
+        "crewmateWins": 4,
         "impostorGames": 0,
         "impostorWins": 0
     },
     "Gangplank": {
         "name": "Gangplank",
-        "crewmateGames": 2,
-        "crewmateWins": 1,
+        "crewmateGames": 3,
+        "crewmateWins": 2,
         "impostorGames": 3,
         "impostorWins": 1
     },
     "Franzo": {
         "name": "Franzo",
-        "crewmateGames": 4,
-        "crewmateWins": 2,
+        "crewmateGames": 5,
+        "crewmateWins": 3,
         "impostorGames": 1,
         "impostorWins": 0
     }
