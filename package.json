@@ -6,6 +6,9 @@
   "scripts": {
     "script:build": "tsc",
     "script:start": "node build/scripts/index.js",
+    "whoareyou:build": "tsc",
+    "whoareyou:start": "node build/scripts/whoareyou.js",
+    "whoareyou": "run-s whoareyou:build \"whoareyou:start {@}\" --",
     "start": "run-s script:build script:start",
     "web:build": "webpack",
     "pre:surge": "npm run web:build",

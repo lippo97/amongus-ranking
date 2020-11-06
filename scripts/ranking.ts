@@ -9,13 +9,16 @@ import { Option } from 'fp-ts/lib/Option';
 
 export type Name = string;
 
-export type Player = {
-    name: Name,
+export type Score = {
     impostorGames: number,
     impostorWins: number,
     crewmateGames: number,
     crewmateWins: number,
 }
+
+export type Player = {
+    name: Name,
+} & Score;
 
 export type RankingDatabase = {
     [_: string]: Player | undefined,
@@ -24,6 +27,8 @@ export type RankingDatabase = {
 export type RankingOperations = {
     get: (_: Name) => Option<Player>,
     getOrCreate: (_: Name) => Player,
+    update: (name: Name) => (score: Score) => Option<Player>,
+    remove: (name: Name) => Option<Player>,
     save: (path: string) => IOEither<Error, void>,
 }
 
@@ -53,9 +58,26 @@ export function enableOperations(database: RankingDatabase): RankingOperations {
         get(name),
         o.getOrElse<Player>(() => {
             const player = createPlayer(name)
-            database[name] = player;
-            return player;
+            database[name] = player
+            return player
         }),
+    )
+
+    const update = (name: Name) => (score: Score) => pipe(
+        get(name),
+        o.map(({ name }) => {
+            const updated = { ...score, name }
+            database[name] = updated
+            return updated
+        })
+    )
+
+    const remove = (name: Name) => pipe(
+        get(name),
+        o.map((p) => {
+            delete database[p.name]
+            return p
+        })
     )
 
     const save = (path: string) => pipe(
@@ -67,6 +89,8 @@ export function enableOperations(database: RankingDatabase): RankingOperations {
     return {
         get,
         getOrCreate,
+        update,
+        remove,
         save,
     };
 }
