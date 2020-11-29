@@ -62,13 +62,6 @@
         "impostorGames": 2,
         "impostorWins": 0
     },
-    "CarrEllo": {
-        "name": "CarrEllo",
-        "crewmateGames": 9,
-        "crewmateWins": 4,
-        "impostorGames": 5,
-        "impostorWins": 1
-    },
     "Ste": {
         "name": "Ste",
         "crewmateGames": 6,
@@ -77,18 +70,11 @@
         "impostorWins": 1
     },
     "ilrodi": {
-        "name": "ilrodi",
-        "crewmateGames": 13,
-        "crewmateWins": 7,
         "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "Hammamta ": {
-        "name": "Hammamta ",
-        "crewmateGames": 6,
-        "crewmateWins": 4,
-        "impostorGames": 0,
-        "impostorWins": 0
+        "impostorWins": 0,
+        "crewmateGames": 17,
+        "crewmateWins": 9,
+        "name": "ilrodi"
     },
     "Gangplank": {
         "name": "Gangplank",
@@ -105,11 +91,11 @@
         "impostorWins": 0
     },
     "TavernEllo": {
-        "name": "TavernEllo",
-        "crewmateGames": 2,
-        "crewmateWins": 1,
-        "impostorGames": 2,
-        "impostorWins": 1
+        "impostorGames": 7,
+        "impostorWins": 2,
+        "crewmateGames": 11,
+        "crewmateWins": 5,
+        "name": "TavernEllo"
     },
     "donAbbondi": {
         "name": "donAbbondi",
@@ -125,25 +111,11 @@
         "impostorGames": 0,
         "impostorWins": 0
     },
-    "Rodypiper": {
-        "name": "Rodypiper",
-        "crewmateGames": 1,
-        "crewmateWins": 1,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
     "hammamta": {
-        "name": "hammamta",
-        "crewmateGames": 2,
-        "crewmateWins": 1,
         "impostorGames": 2,
-        "impostorWins": 1
-    },
-    "NONSONOIO": {
-        "name": "NONSONOIO",
-        "crewmateGames": 3,
-        "crewmateWins": 1,
-        "impostorGames": 0,
-        "impostorWins": 0
+        "impostorWins": 1,
+        "crewmateGames": 8,
+        "crewmateWins": 5,
+        "name": "hammamta"
     }
 }
