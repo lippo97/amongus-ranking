@@ -1,10 +1,10 @@
 {
     "Lippo": {
         "name": "Lippo",
-        "crewmateWins": 7,
-        "crewmateGames": 12,
-        "impostorWins": 1,
-        "impostorGames": 2
+        "crewmateWins": 9,
+        "crewmateGames": 15,
+        "impostorWins": 2,
+        "impostorGames": 3
     },
     "airali": {
         "name": "airali",
@@ -15,8 +15,8 @@
     },
     "V X Giumi": {
         "name": "V X Giumi",
-        "crewmateGames": 11,
-        "crewmateWins": 6,
+        "crewmateGames": 15,
+        "crewmateWins": 8,
         "impostorGames": 3,
         "impostorWins": 1
     },
@@ -50,10 +50,10 @@
     },
     "Polve": {
         "name": "polve",
-        "crewmateGames": 9,
-        "crewmateWins": 6,
-        "impostorGames": 4,
-        "impostorWins": 2
+        "crewmateGames": 11,
+        "crewmateWins": 7,
+        "impostorGames": 6,
+        "impostorWins": 3
     },
     "Nico": {
         "name": "Nico",
@@ -71,9 +71,9 @@
     },
     "Ste": {
         "name": "Ste",
-        "crewmateGames": 2,
-        "crewmateWins": 2,
-        "impostorGames": 1,
+        "crewmateGames": 6,
+        "crewmateWins": 3,
+        "impostorGames": 3,
         "impostorWins": 1
     },
     "ilrodi": {
@@ -102,6 +102,48 @@
         "crewmateGames": 5,
         "crewmateWins": 3,
         "impostorGames": 1,
+        "impostorWins": 0
+    },
+    "TavernEllo": {
+        "name": "TavernEllo",
+        "crewmateGames": 2,
+        "crewmateWins": 1,
+        "impostorGames": 2,
+        "impostorWins": 1
+    },
+    "donAbbondi": {
+        "name": "donAbbondi",
+        "crewmateGames": 2,
+        "crewmateWins": 1,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Giala": {
+        "name": "Giala",
+        "crewmateGames": 4,
+        "crewmateWins": 2,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "Rodypiper": {
+        "name": "Rodypiper",
+        "crewmateGames": 1,
+        "crewmateWins": 1,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "hammamta": {
+        "name": "hammamta",
+        "crewmateGames": 2,
+        "crewmateWins": 1,
+        "impostorGames": 2,
+        "impostorWins": 1
+    },
+    "NONSONOIO": {
+        "name": "NONSONOIO",
+        "crewmateGames": 3,
+        "crewmateWins": 1,
+        "impostorGames": 0,
         "impostorWins": 0
     }
 }
