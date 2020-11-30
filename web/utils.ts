@@ -1,18 +1,16 @@
+import { lower_bound_wilson } from "./statistics";
 import { EnhancedPlayer } from "./types";
 
 export function formatRecord(win: number, total: number): string {
     return `${win} - ${total - win}`;
 }
 
-export function getPercentage(num: number, den: number): number {
-    if (den == 0) {
-        return 0;
-    }
-    return num / den * 100;
+export function getScore(num: number, den: number): number {
+    return lower_bound_wilson(num, den);
 }
 
-export function formatPercentage(num: number): string {
-    return num.toFixed(2) + "%";
+export function formatScore(num: number): string {
+    return num.toFixed(4);
 }
 
 export type Extractor = {

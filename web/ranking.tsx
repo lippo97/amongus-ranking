@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RankingDatabase, Player } from '../scripts/ranking';
-import { applyAsTuple, combine, crewmatePercentage, formatPercentage, formatRecord, getPercentage, impostorPercentage, increasing, nonIncreasing, pair, totalPercentage, Extractor } from './utils';
+import { applyAsTuple, combine, crewmatePercentage, formatScore, formatRecord, getScore, impostorPercentage, increasing, nonIncreasing, pair, totalPercentage, Extractor } from './utils';
 import { EnhancedPlayer, SortCombined, SortOrder, SortType } from './types';
 import Selector from './selector';
 import { flow, pipe } from 'fp-ts/lib/function';
@@ -19,9 +19,9 @@ function enhancePlayer(player: Player): EnhancedPlayer {
         ...player,
         totalGames,
         totalWins,
-        totalPercentage: getPercentage(totalWins, totalGames),
-        impostorPercentage: getPercentage(player.impostorWins, player.impostorGames),
-        crewmatePercentage: getPercentage(player.crewmateWins, player.crewmateGames),
+        totalPercentage: getScore(totalWins, totalGames),
+        impostorPercentage: getScore(player.impostorWins, player.impostorGames),
+        crewmatePercentage: getScore(player.crewmateWins, player.crewmateGames),
     };
 }
 
@@ -30,11 +30,11 @@ function renderPlayer(p?: EnhancedPlayer) {
         <tr>
             <td>{ p.name }</td>
             <td>{ formatRecord(p.impostorWins, p.impostorGames) }</td>
-            <td>{ formatPercentage(p.impostorPercentage) }</td>
+            <td>{ formatScore(p.impostorPercentage) }</td>
             <td>{ formatRecord(p.crewmateWins, p.crewmateGames) }</td>
-            <td>{ formatPercentage(p.crewmatePercentage) }</td>
+            <td>{ formatScore(p.crewmatePercentage) }</td>
             <td>{ formatRecord(p.totalWins, p.totalGames) }</td>
-            <td>{ formatPercentage(p.totalPercentage) }</td>
+            <td>{ formatScore(p.totalPercentage) }</td>
         </tr>
     )
 }
