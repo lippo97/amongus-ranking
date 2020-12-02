@@ -6,46 +6,11 @@
         "impostorWins": 3,
         "impostorGames": 5
     },
-    "airali": {
-        "name": "airali",
-        "crewmateGames": 7,
-        "crewmateWins": 4,
-        "impostorGames": 1,
-        "impostorWins": 1
-    },
     "V X Giumi": {
         "name": "V X Giumi",
         "crewmateGames": 18,
         "crewmateWins": 10,
         "impostorGames": 4,
-        "impostorWins": 1
-    },
-    "Impastore": {
-        "name": "Impastore",
-        "crewmateGames": 6,
-        "crewmateWins": 3,
-        "impostorGames": 2,
-        "impostorWins": 1
-    },
-    "Filloh": {
-        "name": "Filloh",
-        "crewmateGames": 7,
-        "crewmateWins": 4,
-        "impostorGames": 1,
-        "impostorWins": 1
-    },
-    "Ferra": {
-        "name": "Ferra",
-        "crewmateGames": 6,
-        "crewmateWins": 2,
-        "impostorGames": 2,
-        "impostorWins": 1
-    },
-    "Pablovic": {
-        "name": "Pablovic",
-        "crewmateGames": 7,
-        "crewmateWins": 4,
-        "impostorGames": 1,
         "impostorWins": 1
     },
     "Polve": {
