@@ -99,7 +99,7 @@ export default function Ranking({ ranking }: RankingProps) {
                                 current={sortOrder._type}
                                 setSortType={setSortType}
                             >
-                                Impostor winrate
+                                Impostor score
                             </Selector>
                         </th>
                         <th>Crewmate record</th>
@@ -109,7 +109,7 @@ export default function Ranking({ ranking }: RankingProps) {
                                 current={sortOrder._type}
                                 setSortType={setSortType}
                             >
-                                Crewmate winrate
+                                Crewmate score
                             </Selector>
                         </th>
                         <th>Total record</th>
@@ -119,7 +119,7 @@ export default function Ranking({ ranking }: RankingProps) {
                                 current={sortOrder._type}
                                 setSortType={setSortType}
                             >
-                                Total winrate
+                                Total score
                             </Selector>
                         </th>
                     </tr>
