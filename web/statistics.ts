@@ -1,6 +1,6 @@
 import * as stats from 'simple-statistics'
 
-const DEFAULT_CONFIDENCE: number = 0.95
+const DEFAULT_CONFIDENCE: number = 0.80
 const memoizedZ: number = stats.probit(1-(1-DEFAULT_CONFIDENCE)/2);
 
 // https://medium.com/@gattermeier/calculating-better-rating-scores-for-things-voted-on-7fa3f632c79d
