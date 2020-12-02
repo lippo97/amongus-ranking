@@ -3,7 +3,7 @@
         "name": "Lippo",
         "crewmateWins": 10,
         "crewmateGames": 17,
-        "impostorWins": 3,
+        "impostorWins": 4,
         "impostorGames": 5
     },
     "V X Giumi": {
@@ -11,26 +11,26 @@
         "crewmateGames": 18,
         "crewmateWins": 9,
         "impostorGames": 4,
-        "impostorWins": 1
+        "impostorWins": 2
     },
     "Polve": {
         "name": "polve",
         "crewmateGames": 13,
-        "crewmateWins": 8,
+        "crewmateWins": 7,
         "impostorGames": 8,
         "impostorWins": 4
     },
     "Nico": {
         "name": "Nico",
         "crewmateGames": 8,
-        "crewmateWins": 4,
+        "crewmateWins": 3,
         "impostorGames": 2,
         "impostorWins": 0
     },
     "Ste": {
         "name": "Ste",
         "crewmateGames": 10,
-        "crewmateWins": 5,
+        "crewmateWins": 4,
         "impostorGames": 3,
         "impostorWins": 1
     },
@@ -38,7 +38,7 @@
         "impostorGames": 1,
         "impostorWins": 1,
         "crewmateGames": 20,
-        "crewmateWins": 11,
+        "crewmateWins": 10,
         "name": "ilrodi"
     },
     "Gangplank": {
@@ -59,7 +59,7 @@
         "impostorGames": 7,
         "impostorWins": 2,
         "crewmateGames": 15,
-        "crewmateWins": 7,
+        "crewmateWins": 6,
         "name": "TavernEllo"
     },
     "donAbbondi": {
@@ -80,7 +80,7 @@
         "impostorGames": 3,
         "impostorWins": 1,
         "crewmateGames": 11,
-        "crewmateWins": 6,
+        "crewmateWins": 5,
         "name": "hammamta"
     },
     "Arcanebre": {
@@ -93,7 +93,7 @@
     "CarlitoBan": {
         "name": "CarlitoBan",
         "crewmateGames": 3,
-        "crewmateWins": 2,
+        "crewmateWins": 1,
         "impostorGames": 1,
         "impostorWins": 1
     }
