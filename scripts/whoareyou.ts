@@ -67,8 +67,8 @@ const usage = [
 ].join('\n\r')
 
 function main(args: string[]) {
-    const name = e.fromNullable(usage)(args[2])
-    const alias = e.fromNullable(usage)(args[3])
+    const name = e.fromNullable(usage)(args[0])
+    const alias = e.fromNullable(usage)(args[1])
 
     pipe(
         name,
@@ -85,4 +85,4 @@ function main(args: string[]) {
     )
 }
 
-main(process.argv)
+main(process.argv.slice(2))
