@@ -10,8 +10,8 @@ import { Report } from './types';
 import { logError } from './utils';
 
 const usage = [
-    'Who are you? (merge your main account score with your alias one)',
-    `Usage: ${process.argv0} <name> <alias>`
+    'Apply reports to the ranking file',
+    `Usage: ${process.argv0} report1 [report2 [report3 [....]]]`
 ].join('\n\r')
 
 function parseReport(obj: string): ioe.IOEither<Error, Report> {
