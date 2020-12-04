@@ -6,6 +6,9 @@
   "scripts": {
     "script:build": "tsc",
     "script:start": "node build/scripts/index.js",
+    "apply:build": "tsc",
+    "apply:start": "node build/scripts/apply.js",
+    "apply": "run-s apply:build \"apply:start {@}\" --",
     "whoareyou:build": "tsc",
     "whoareyou:start": "node build/scripts/whoareyou.js",
     "whoareyou": "run-s whoareyou:build \"whoareyou:start {@}\" --",
