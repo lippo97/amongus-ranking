@@ -41,11 +41,11 @@ export function loadRanking(path: string): IOEither<Error, RankingDatabase> {
     )
 }
 
-function loadFile(path: string): IOEither<Error, string> {
+export function loadFile(path: string): IOEither<Error, string> {
     return tryCatch(() => fs.readFileSync(path, 'utf8'), toError);
 }
 
-const saveFile = (path: string) => (data: string) =>
+export const saveFile = (path: string) => (data: string) =>
     tryCatch(() => fs.writeFileSync(path, data), toError)
 
 function parseRanking(obj: string): IOEither<Error, RankingDatabase> {
