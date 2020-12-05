@@ -1,5 +1,6 @@
 import mqtt from 'async-mqtt';
 import * as e from 'fp-ts/lib/Either';
+import moment from 'moment';
 import { pipe } from 'fp-ts/lib/function';
 import * as ioe from 'fp-ts/lib/IOEither';
 import { IOEither } from 'fp-ts/lib/IOEither';
@@ -12,7 +13,8 @@ function logError(e: Error): void {
 }
 
 function getNewReportFilename(): string {
-    return DATA_DIR + '/' + new Date().toISOString();
+	const dateFormat = moment().format('yyyy-MM-DDTHH-mm');
+    return path.join('data', dateFormat + '.json');
 }
 
 const sendReport = (report: Report): IOEither<Error, void> => {
