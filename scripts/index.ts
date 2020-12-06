@@ -1,5 +1,6 @@
 import mqtt from 'async-mqtt';
 import * as e from 'fp-ts/lib/Either';
+import path from 'path';
 import moment from 'moment';
 import { pipe } from 'fp-ts/lib/function';
 import * as ioe from 'fp-ts/lib/IOEither';
