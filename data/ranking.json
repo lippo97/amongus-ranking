@@ -6,13 +6,6 @@
         "impostorWins": 5,
         "impostorGames": 6
     },
-    "V X Giumi": {
-        "name": "V X Giumi",
-        "crewmateGames": 18,
-        "crewmateWins": 9,
-        "impostorGames": 4,
-        "impostorWins": 2
-    },
     "Polve": {
         "name": "polve",
         "crewmateGames": 20,
@@ -35,18 +28,11 @@
         "impostorWins": 1
     },
     "ilrodi": {
-        "impostorGames": 1,
-        "impostorWins": 1,
-        "crewmateGames": 20,
-        "crewmateWins": 10,
-        "name": "ilrodi"
-    },
-    "Gangplank": {
-        "name": "Gangplank",
-        "crewmateGames": 3,
-        "crewmateWins": 2,
         "impostorGames": 3,
-        "impostorWins": 1
+        "impostorWins": 1,
+        "crewmateGames": 25,
+        "crewmateWins": 12,
+        "name": "ilrodi"
     },
     "Franzo": {
         "name": "Franzo",
@@ -54,13 +40,6 @@
         "crewmateWins": 3,
         "impostorGames": 1,
         "impostorWins": 0
-    },
-    "TavernEllo": {
-        "impostorGames": 7,
-        "impostorWins": 2,
-        "crewmateGames": 15,
-        "crewmateWins": 6,
-        "name": "TavernEllo"
     },
     "donAbbondi": {
         "name": "donAbbondi",
@@ -77,10 +56,10 @@
         "impostorWins": 0
     },
     "hammamta": {
-        "impostorGames": 3,
-        "impostorWins": 1,
-        "crewmateGames": 11,
-        "crewmateWins": 5,
+        "impostorGames": 4,
+        "impostorWins": 2,
+        "crewmateGames": 17,
+        "crewmateWins": 9,
         "name": "hammamta"
     },
     "Arcanebre": {
@@ -98,11 +77,11 @@
         "impostorWins": 2
     },
     "Jack": {
-        "name": "Jack",
-        "crewmateGames": 3,
-        "crewmateWins": 2,
-        "impostorGames": 4,
-        "impostorWins": 2
+        "impostorGames": 7,
+        "impostorWins": 3,
+        "crewmateGames": 6,
+        "crewmateWins": 4,
+        "name": "Jack"
     },
     "Dante": {
         "name": "Dante",
@@ -112,66 +91,17 @@
         "impostorWins": 0
     },
     "G1VM1": {
-        "name": "G1VM1",
-        "crewmateGames": 7,
-        "crewmateWins": 4,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "ILVERDE": {
-        "name": "ILVERDE",
-        "crewmateGames": 1,
-        "crewmateWins": 0,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "il nero ": {
-        "name": "il nero ",
-        "crewmateGames": 5,
-        "crewmateWins": 4,
-        "impostorGames": 0,
-        "impostorWins": 0
+        "impostorGames": 4,
+        "impostorWins": 2,
+        "crewmateGames": 25,
+        "crewmateWins": 13,
+        "name": "G1VM1"
     },
     "AcquerEllo": {
-        "name": "AcquerEllo",
-        "crewmateGames": 3,
-        "crewmateWins": 3,
-        "impostorGames": 2,
-        "impostorWins": 1
-    },
-    "DORAZO": {
-        "name": "DORAZO",
-        "crewmateGames": 2,
-        "crewmateWins": 2,
-        "impostorGames": 2,
-        "impostorWins": 0
-    },
-    "DislivEllo": {
-        "name": "DislivEllo",
-        "crewmateGames": 2,
-        "crewmateWins": 0,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "NIKILAUDA": {
-        "name": "NIKILAUDA",
-        "crewmateGames": 2,
-        "crewmateWins": 0,
-        "impostorGames": 0,
-        "impostorWins": 0
-    },
-    "il bianco": {
-        "name": "il bianco",
-        "crewmateGames": 0,
-        "crewmateWins": 0,
-        "impostorGames": 1,
-        "impostorWins": 1
-    },
-    "nonsonoio": {
-        "name": "nonsonoio",
-        "crewmateGames": 1,
-        "crewmateWins": 0,
-        "impostorGames": 0,
-        "impostorWins": 0
+        "impostorGames": 9,
+        "impostorWins": 3,
+        "crewmateGames": 20,
+        "crewmateWins": 9,
+        "name": "AcquerEllo"
     }
 }
