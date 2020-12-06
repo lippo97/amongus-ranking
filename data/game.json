@@ -1,0 +1,10 @@
+{
+  "crewmates": [
+    "Lippo",   "Jack",
+    "Polve",   "Dante",
+    "Nico",    "G1VM1",
+    "ILVERDE", "il nero "
+  ],
+  "impostors": [ "CarlitoBan", "AcquerEllo" ],
+  "winners": "impostors"
+}
