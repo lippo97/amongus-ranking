@@ -1,10 +1,10 @@
 {
     "Lippo": {
         "name": "Lippo",
-        "crewmateWins": 10,
-        "crewmateGames": 17,
-        "impostorWins": 4,
-        "impostorGames": 5
+        "crewmateWins": 14,
+        "crewmateGames": 23,
+        "impostorWins": 5,
+        "impostorGames": 6
     },
     "V X Giumi": {
         "name": "V X Giumi",
@@ -15,15 +15,15 @@
     },
     "Polve": {
         "name": "polve",
-        "crewmateGames": 13,
-        "crewmateWins": 7,
+        "crewmateGames": 20,
+        "crewmateWins": 11,
         "impostorGames": 8,
         "impostorWins": 4
     },
     "Nico": {
         "name": "Nico",
-        "crewmateGames": 8,
-        "crewmateWins": 3,
+        "crewmateGames": 15,
+        "crewmateWins": 7,
         "impostorGames": 2,
         "impostorWins": 0
     },
@@ -92,9 +92,86 @@
     },
     "CarlitoBan": {
         "name": "CarlitoBan",
+        "crewmateGames": 8,
+        "crewmateWins": 4,
+        "impostorGames": 3,
+        "impostorWins": 2
+    },
+    "Jack": {
+        "name": "Jack",
         "crewmateGames": 3,
-        "crewmateWins": 1,
+        "crewmateWins": 2,
+        "impostorGames": 4,
+        "impostorWins": 2
+    },
+    "Dante": {
+        "name": "Dante",
+        "crewmateGames": 5,
+        "crewmateWins": 2,
+        "impostorGames": 2,
+        "impostorWins": 0
+    },
+    "G1VM1": {
+        "name": "G1VM1",
+        "crewmateGames": 7,
+        "crewmateWins": 4,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "ILVERDE": {
+        "name": "ILVERDE",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "il nero ": {
+        "name": "il nero ",
+        "crewmateGames": 5,
+        "crewmateWins": 4,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "AcquerEllo": {
+        "name": "AcquerEllo",
+        "crewmateGames": 3,
+        "crewmateWins": 3,
+        "impostorGames": 2,
+        "impostorWins": 1
+    },
+    "DORAZO": {
+        "name": "DORAZO",
+        "crewmateGames": 2,
+        "crewmateWins": 2,
+        "impostorGames": 2,
+        "impostorWins": 0
+    },
+    "DislivEllo": {
+        "name": "DislivEllo",
+        "crewmateGames": 2,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "NIKILAUDA": {
+        "name": "NIKILAUDA",
+        "crewmateGames": 2,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
+    },
+    "il bianco": {
+        "name": "il bianco",
+        "crewmateGames": 0,
+        "crewmateWins": 0,
         "impostorGames": 1,
         "impostorWins": 1
+    },
+    "nonsonoio": {
+        "name": "nonsonoio",
+        "crewmateGames": 1,
+        "crewmateWins": 0,
+        "impostorGames": 0,
+        "impostorWins": 0
     }
 }
